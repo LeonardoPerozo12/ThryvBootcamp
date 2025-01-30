@@ -26,7 +26,8 @@ I got this error when initalizing the server
 
 since useNewUrlParser and useUnifiedTopology are obsolete there is no need to use them, instead I chose to use a catch to capture any possible connection error
 
-### also added some validations to the register, it didnt check if the user exists before creating
+#### added some validations to the register, it didnt check if the user exists before creating
+#### Fixed authMiddleware to retrieve the token from the Auth header as a Bearer token
 
 
 
