@@ -41,4 +41,3 @@ app.get("/", (req, res) => {
 https.createServer(options, app).listen(443, () => {
     console.log(`🔒 Servidor HTTPS corriendo en https://localhost:443`); //agregue la ruta para mas facilidad
 });
-
